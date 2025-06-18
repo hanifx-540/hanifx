@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>hanifx - Secure Python Module</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1d1f2f, #0f1624);
+      color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 50px;
+      background: radial-gradient(circle, #003973, #000428);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      color: #4ef037;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px #0f0;
+      animation: fadeInDown 2s ease-in-out;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.3em;
+      color: #a0e0ff;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.8em;
+      color: #00e5ff;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 5px #333;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #1a1a2e, #16213e);
+      border-radius: 20px;
+      width: 320px;
+      padding: 30px;
+      transition: transform 1s ease, box-shadow 1s ease;
+      box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .card:hover {
+      transform: rotateY(10deg) scale(1.05);
+      box-shadow: 0 0 40px #00ffff;
+    }
+
+    .card h2 {
+      color: #5eead4;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 1em;
+      line-height: 1.6em;
+    }
+
+    #about p, #contact p {
+      color: #c0e0ff;
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.8em;
+    }
+
+    footer {
+      background: #121212;
+      padding: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @keyframes fadeInDown {
+      0% {opacity: 0; transform: translateY(-50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeInUp {
+      0% {opacity: 0; transform: translateY(50px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>hanifx Modules</h1>
+    <p>The latest version of the Hanifx module includes a feature that detects harmful or malicious code in Python or other scripts. When such code is found, it either blocks the execution or shows a warning to alert the user, helping prevent unintended damage or abuse.</p>
+  </header>
+
+  <section id="features">
+    <h2>⚙️ Key Features</h2>
+    <div class="container">
+      <div class="card">
+        <h2>🔐 Smart Hashing</h2>
+        <p>hanifx automatically selects optimal hashing algorithms based on data type, making security easy.</p>
+      </div>
+      <div class="card">
+        <h2>🛡️ Security Focused</h2>
+        <p>Detects and warns against potentially harmful script behaviors or manipulations using built-in logic.</p>
+      </div>
+      <div class="card">
+        <h2>⚡ Developer Friendly</h2>
+        <p>Lightweight, flexible and designed for clean coding with fast integration into Python projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>📦 About hanifx</h2>
+    <p>
+      hanifx is a unique Python package created for developers, ethical hackers, and students to help them implement
+      intelligent hashing techniques while keeping scripts safe and clean. Whether you're building tools or securing apps,
+      hanifx is built with purpose.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>📨 Contact Developer</h2>
+    <p>
+      For queries, suggestions or contributions, contact via email: <b>sajim4653@gmail.com</b>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 hanifx | Built with ❤️ by Hanif | All rights reserved.
+  </footer>
+
+  <script>
+    // Add scroll-based reveal animation in future if needed
+  </script>
+
+</body>
+  </html>
