@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌐 hanifx Install & Features</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #00151f, #031e26, #042c38);
+      background-size: 400% 400%;
+      animation: bgflow 15s ease infinite;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }@keyframes bgflow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card, .features, .example, .contact {
+  background: rgba(0, 15, 20, 0.9);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 850px;
+  box-shadow: 0 0 20px #00ffff66, 0 0 40px #00e6e6 inset;
+  border: 1px solid #00e6e644;
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease;
+  animation: fadeInUp 1s ease both;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card:hover, .features:hover, .example:hover, .contact:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  font-size: 26px;
+  color: #33ffff;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 12px #00e6e6, 0 0 18px #00ffff;
+}
+
+.codebox {
+  background: #000f11;
+  padding: 16px;
+  border: 1px solid #00e6e666;
+  border-radius: 12px;
+  color: #aafafa;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 0 0 10px #33ffff;
+  box-shadow: 0 0 20px #00e6e666;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 20px #00e6e666; }
+  50% { box-shadow: 0 0 30px #00ffffaa; }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+  box-shadow: 0 0 15px #00ffff33;
+}
+
+th, td {
+  border: 1px solid #00cccc22;
+  padding: 14px;
+  text-align: left;
+}
+
+th {
+  background-color: #003f47;
+  color: #66ffff;
+  text-shadow: 0 0 5px #33ffff;
+}
+
+td {
+  background-color: #002c33;
+  color: #ccffff;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #99ffff;
+  font-size: 13px;
+  text-shadow: 0 0 5px #00e6e6;
+}
+
+.contact a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #00ffff;
+  text-decoration: none;
+  border: 1px solid #00e6e6aa;
+  border-radius: 10px;
+  background: #001e26;
+  box-shadow: 0 0 10px #00e6e6;
+  transition: all 0.3s ease;
+}
+
+.contact a:hover {
+  background-color: #00e6e6;
+  color: #000;
+  box-shadow: 0 0 20px #00ffffaa;
+}
+
+  </style>
+</head><body>
+  <div class="card">
+    <h2>🌐 pip install hanifx</h2>
+    <div class="codebox">pip install hanifx</div>
+    <p style="text-align:center; font-size:14px; color:#aaffff; text-shadow:0 0 6px #00ffff">A modern Python module for white hat hackers & secure coding 💀</p>
+  </div>  <div class="features">
+    <h2>🔍 hanifx Feature</h2>
+    <table>
+      <tr><th>Feature</th><th>Description</th></tr>
+      <tr><td>🛡️ Haramfull Code Detection</td><td>Automatically detects and warns against harmful or malicious Python code</td></tr>
+    </table>
+  </div>  <div class="example">
+    <h2>🧪 Sample Usage</h2>
+    <div class="codebox">
+      from hanifx import detect_haram
+    </div>
+    <div class="codebox">
+      code = "import os\nos.system('rm -rf /')"
+    </div>
+    <div class="codebox">
+      print(detect_haram(code))  # 👉 '⚠️ Haramfull code detected!'
+    </div>
+  </div>  <div class="contact">
+    <h2>📩 Contact Me</h2>
+    <a href="mailto:sajim4653@gmail.com" target="_blank">📧 Gmail</a>
+    <a href="https://facebook.com/hanifx540" target="_blank">📘 Facebook</a>
+    <a href="https://t.me/hanifx540" target="_blank">📬 Telegram</a>
+  </div>  <div class="footer">
+    &copy; 2025 hanifx • Developed by Hanif
+  </div>
+</body></html>
