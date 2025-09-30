@@ -1,6 +1,4 @@
-# ![hanifx](https://via.placeholder.com/50) hanifx Rust Module
-
-[![Crates.io](https://img.shields.io/crates/v/hanifx)](https://crates.io/crates/hanifx)
+# ![hanifx](https://via.placeholder.com/50)  Rust Rustp[Crates.io](https://img.shields.io/crates/v/hanifx)](https://crates.io/crates/hanifx)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.80+-orange)](https://www.rust-lang.org/)
 
