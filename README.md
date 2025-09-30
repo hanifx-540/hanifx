@@ -38,19 +38,12 @@ To use `hanifx`, you first need **Rust** and **Cargo** installed.
 
 ```bash
 sudo apt update
-sudo apt install curl build-essential
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
-rustc --version
-cargo --version
+sudo apt install rust ('error problem try this⬇️')
+apt install rust
 
-
-### Arch linux :
-
-sudo pacman -Syu
+### Arch linux sudoudo pacman -Syu
 sudo pacman -S rust
-rustc --version
-cargo --version
+rustc --versicargorgo --version
 
 ### Termux (Android):
 
